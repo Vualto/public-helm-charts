@@ -1,10 +1,10 @@
 # public-helm-charts
 
 To add as a repo:
-helm repo add vualto https://raw.githubusercontent.com/Vualto/public-helm-charts/master/
+`helm repo add vualto https://raw.githubusercontent.com/Vualto/public-helm-charts/master/`
 
 To update the repo:
-helm repo update vualto https://raw.githubusercontent.com/Vualto/public-helm-charts/master/
+`helm repo update vualto https://raw.githubusercontent.com/Vualto/public-helm-charts/master/`
 
 To add a new package to the repo:
 1) Run `helm package --version <version> .` in the same folder as your `charts.yaml`.
