@@ -2,12 +2,12 @@ apiVersion: v1
 entries:
   fluentd:
   - apiVersion: v1
-    appVersion: 1.2.9
-    created: "2021-06-18T11:27:31.8702223+01:00"
+    appVersion: 1.2.10
+    created: "2022-07-12T12:18:27.65184205+01:00"
     description: A Helm chart for installing fluentd and pointing it at an ES cluster
-    digest: 9d8e2deafd565a675218f7f2011f636be0705052f639f1ddeb8d6aba2ec44d4e
+    digest: 62e0781e2ff173721dcff772a15aae1cd3ad6be79b41ea8f3768f3a1de6b45b6
     name: fluentd
     urls:
-    - https://raw.githubusercontent.com/Vualto/public-helm-charts/master/fluentd-1.2.9.tgz
-    version: 1.2.9
-generated: "2021-06-18T11:27:31.8650791+01:00"
+    - https://raw.githubusercontent.com/Vualto/public-helm-charts/master/fluentd-1.2.10.tgz
+    version: 1.2.10
+generated: "2022-07-12T12:18:27.634230009+01:00"
