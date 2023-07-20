@@ -3,11 +3,22 @@ entries:
   fluentd:
   - apiVersion: v1
     appVersion: 1.2.10
-    created: "2022-07-12T12:18:27.65184205+01:00"
+    created: "2023-07-20T16:53:57.244595403+01:00"
     description: A Helm chart for installing fluentd and pointing it at an ES cluster
     digest: 62e0781e2ff173721dcff772a15aae1cd3ad6be79b41ea8f3768f3a1de6b45b6
     name: fluentd
     urls:
     - https://raw.githubusercontent.com/Vualto/public-helm-charts/master/fluentd-1.2.10.tgz
     version: 1.2.10
-generated: "2022-07-12T12:18:27.634230009+01:00"
+  fluentd-s3:
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2023-07-20T16:53:57.247203234+01:00"
+    description: A Helm chart for installing fluentd, ready k8s logs, and pushing
+      them to s3
+    digest: 49fc3dc79f202f9900618faee5ed175a75253718adc0328988e22d3c1cb86303
+    name: fluentd-s3
+    urls:
+    - https://raw.githubusercontent.com/Vualto/public-helm-charts/master/fluentd-s3-0.0.1.tgz
+    version: 0.0.1
+generated: "2023-07-20T16:53:57.241409336+01:00"
